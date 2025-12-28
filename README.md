@@ -33,6 +33,56 @@ EventChain is a decentralized event ticketing system where event tickets are iss
 - Git
 - Android Studio or VS Code
 
+#### Essential Versions
+
+##### Mobile Application Environment
+
+- Flutter SDK: ^3.27.0
+- Dart SDK: 3.6.0 (bundled with Flutter 3.27.x)
+
+##### Android Development Configuration
+
+- Compile SDK Version: API level 35 (Android 15 - recommended)
+- Target SDK Version: API level 35 (Android 15 - recommended)
+- Android Studio: Flamingo or later
+
+##### Java & Build Tools
+
+- Java Development Kit (JDK): 17 (recommended) or 21
+
+##### Backend Services
+
+- Firebase Authentication: Latest
+- Cloud Firestore: Latest
+
+##### Blockchain Configuration
+
+- Blockchain Network: Polygon PoS (Mumbai Testnet)
+- Smart Contract Language: Solidity ^0.8.20
+- Token Standard: ERC-721
+
+##### Blockchain Development Tooling
+
+- Node.js: 18.x LTS
+- Hardhat: ^2.19 (2.19.1 - recommended)
+- ethers.js: ^6.x (6.0.0 - recommended)
+- Decentralized Storage -IPFS (Pinata): Latest
+
+##### Required Flutter Dependencies
+
+flutter_riverpod: ^2.5.1-
+https://pub.dev/packages/flutter_riverpod
+
+firebase_core: ^3.6.0-
+https://pub.dev/packages/firebase_core
+
+cloud_firestore: ^5.4.0-
+https://pub.dev/packages/cloud_firestore
+
+go_router: ^14.2.0-
+https://pub.dev/packages/go_router
+
+
 ### Flutter Installation Steps
 
 1. Download Flutter SDK  
@@ -206,4 +256,4 @@ For project-related queries or issues, please reach out via **Discord**.
 > - Use the designated Discord channels for discussions and support  
 > - Avoid unnecessary direct messages (DMs) and random pings  
 
-EventChain — Redefining Event Ticketing with Blockchain 🚀
+EventChain — Redefining Event Ticketing with Blockchain.
