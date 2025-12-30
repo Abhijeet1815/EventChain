@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../utils/size_utils.dart';
 
 class GoogleButton extends StatelessWidget {
-  GoogleButton({super.key});
+  const GoogleButton({super.key});
 
   @override
   Widget build(BuildContext context) {
